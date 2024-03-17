@@ -98,11 +98,10 @@ const InterviewPage = () => {
   const handleSubmit = () => {};
 
   return (
-    <div className="flex flex-row h-screen bg-gray-200 text-gray-600 dark:bg-zinc-800 dark:text-zinc-300">
+    <div className="flex flex-row bg-gray-200 text-gray-600 dark:bg-zinc-800 dark:text-zinc-300">
       <div className="flex flex-col basis-1/2">
         <div className="flex-auto basis-1/2">
           Question <ModeToggle></ModeToggle>
-          <UserButton afterSignOutUrl="/"></UserButton>
           <Card className="dark:bg-zinc-900 dark:text-zinc-300 font-mono text-gray-700">
             <CardHeader>
               <CardTitle>Pallindrome Partitioning</CardTitle>
